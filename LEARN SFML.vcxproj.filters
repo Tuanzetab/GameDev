@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CHAPTER1">
+      <UniqueIdentifier>{3864c7e7-bdf0-4ece-a1eb-82c3a4cdcb0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CHAPTER1\1.Opening the window">
+      <UniqueIdentifier>{73844698-b744-407c-9858-3573d0e95c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CHAPTER1\2.Rendering the rectangle">
+      <UniqueIdentifier>{5595a359-1a7c-47d1-afe6-d5f134642b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CHAPTER1\3.Drawing a sprite">
+      <UniqueIdentifier>{78e3249e-5d46-4edc-8527-7d8329220a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CHAPTER2">
+      <UniqueIdentifier>{00b1309a-7c1d-4392-8026-b134ba13831c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CHAPTER2\1.CoreGameStructure">
+      <UniqueIdentifier>{6c591194-bb9b-4287-ace9-7d2d0e2ab0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntroToECS">
+      <UniqueIdentifier>{405c99d8-5106-4df0-a849-016526c1fe8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Header Files\CHAPTER2\1.CoreGameStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Header Files\CHAPTER2\1.CoreGameStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Header Files\IntroToECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Header Files\IntroToECS</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Header Files\IntroToECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Components.cpp">
+      <Filter>Header Files\IntroToECS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="example1.h">
+      <Filter>Header Files\CHAPTER1\1.Opening the window</Filter>
+    </ClInclude>
+    <ClInclude Include="example2.h">
+      <Filter>Header Files\CHAPTER1\2.Rendering the rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="example3.h">
+      <Filter>Header Files\CHAPTER1\3.Drawing a sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment1.h">
+      <Filter>Header Files\CHAPTER1</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Header Files\CHAPTER2\1.CoreGameStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\CHAPTER2\1.CoreGameStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files\IntroToECS</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\IntroToECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Header Files\IntroToECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\IntroToECS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
